@@ -56,3 +56,7 @@ end
 if platform.is_windows? || platform.is_solaris?
   proj.component 'rubygem-minitar'
 end
+
+if platform.name =~ /^el-7-.*$/
+  proj.component "krb5"
+end

@@ -51,6 +51,10 @@ proj.component 'rubygem-text'
 proj.component 'rubygem-locale'
 proj.component 'rubygem-gettext'
 proj.component 'rubygem-fast_gettext'
+proj.component "rubygem-curb"
+proj.component "rubygem-httpi"
+proj.component "rubygem-socksify"
+proj.component "rubygem-rack"
 
 if platform.is_windows? || platform.is_solaris?
   proj.component 'rubygem-minitar'

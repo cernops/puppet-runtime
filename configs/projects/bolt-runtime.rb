@@ -115,6 +115,10 @@ project 'bolt-runtime' do |proj|
   proj.component "runtime-bolt"
   proj.component "puppet-ca-bundle"
   proj.component "ruby-#{proj.ruby_version}"
+  proj.component "rubygem-curb"
+  proj.component "rubygem-httpi"
+  proj.component "rubygem-socksify"
+  proj.component "rubygem-rack"
 
   # Building native gems on Windows has some issues right now.
   # Include for non-Windows platforms only.

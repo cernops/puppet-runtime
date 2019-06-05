@@ -115,6 +115,7 @@ project 'bolt-runtime' do |proj|
   proj.component "rubygem-httpi"
   proj.component "rubygem-socksify"
   proj.component "rubygem-rack"
+  proj.component "rubygem-net-ssh-krb"
 
   # Building native gems on Windows has some issues right now.
   # Include for non-Windows platforms only.

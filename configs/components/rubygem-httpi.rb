@@ -1,6 +1,6 @@
 component "rubygem-httpi" do |pkg, settings, platform|
-  pkg.version "2.4.2"
-  pkg.md5sum "dfa1d25072bcc0bece3c7b6607621c0b"
+  pkg.version "2.4.4"
+  pkg.md5sum "6aa3fbd69cad4b3fd2fcb1f4b6a81c74"
   pkg.url "https://rubygems.org/downloads/httpi-#{pkg.get_version}.gem"
 
   pkg.build_requires "ruby-#{settings[:ruby_version]}"

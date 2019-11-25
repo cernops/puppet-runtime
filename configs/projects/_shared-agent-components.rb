@@ -49,10 +49,12 @@ proj.component "rubygem-curb"
 proj.component "rubygem-httpi"
 proj.component "rubygem-socksify"
 proj.component "rubygem-rack"
+  proj.component 'rubygem-ffi'
+proj.component "rubygem-rbnacl"
+proj.component "rubygem-rbnacl-libsodium"
 
 
 if platform.is_windows?
-  proj.component 'rubygem-ffi'
   proj.component 'rubygem-win32-dir'
   proj.component 'rubygem-win32-process'
   proj.component 'rubygem-win32-security'

@@ -46,6 +46,4 @@ project 'agent-runtime-5.5.x' do |proj|
   proj.component 'ruby-stomp'
   proj.component 'yaml-cpp' if platform.name =~ /fedora-29|el-8|debian-10/ || platform.is_macos?
   proj.component 'boost' if platform.name =~ /fedora-29|el-8|debian-10/ || platform.is_macos?
-  proj.component 'rubygem-rbnacl'
-  proj.component 'rubygem-rbnacl-libsodium'
 end

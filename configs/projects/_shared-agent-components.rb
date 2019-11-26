@@ -39,6 +39,7 @@ end
 proj.component 'rubygem-hocon'
 proj.component 'rubygem-deep_merge'
 proj.component 'rubygem-net-ssh'
+proj.component 'rubygem-ed25519'
 proj.component 'rubygem-semantic_puppet'
 proj.component 'rubygem-text'
 proj.component 'rubygem-locale'

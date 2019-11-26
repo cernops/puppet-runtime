@@ -1,6 +1,6 @@
 component "rubygem-net-ssh" do |pkg, settings, platform|
   # Projects may define a :rubygem_net_ssh_version setting, or we use 4.2.0 by default:
-  version = settings[:rubygem_net_ssh_version] || '4.2.0'
+  version = settings[:rubygem_net_ssh_version] || '5.2.0'
   pkg.version version
 
   case version

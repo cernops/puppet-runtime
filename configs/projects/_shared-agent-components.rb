@@ -67,3 +67,7 @@ end
 if platform.is_macos?
   proj.component 'rubygem-CFPropertyList'
 end
+
+if platform.name =~ /^el-[78]-.*$/
+  proj.component "krb5"
+end

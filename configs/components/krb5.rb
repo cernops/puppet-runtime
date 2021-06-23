@@ -1,7 +1,7 @@
 component "krb5" do |pkg, settings, platform|
 
-  pkg.version "1.17.1"
-  pkg.md5sum "417d654c72526ac51466e7fe84608878"
+  pkg.version "1.18.2"
+  pkg.md5sum "fd9087eaa43589a2480c2e22da91a17e"
   pkg.url "http://web.mit.edu/kerberos/dist/krb5/#{pkg.get_version.sub(%r{\.\d+$},'')}/krb5-#{pkg.get_version}.tar.gz"
   pkg.build_requires 'byacc'
 
